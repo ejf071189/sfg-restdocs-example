@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: guru.springframework.sfgrestdocsexample.web.controller.BeerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.046 s <<< FAILURE! - in guru.springframework.sfgrestdocsexample.web.controller.BeerControllerTest
+getBeerById  Time elapsed: 0.092 s  <<< ERROR!
+java.lang.IllegalArgumentException: urlTemplate not found. If you are using MockMvc did you use RestDocumentationRequestBuilders to build the request?
+	at guru.springframework.sfgrestdocsexample.web.controller.BeerControllerTest.getBeerById(BeerControllerTest.java:68)
+
